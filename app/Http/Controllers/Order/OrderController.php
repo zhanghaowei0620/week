@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
+use Str;
 
 class OrderController extends Controller
 {
@@ -25,9 +26,10 @@ class OrderController extends Controller
             $order_amount += $v['goods_selfprice'];
         }
 
+        $order_num = OrderModel::generateOrderSN(Auth::id());
         $order_info = [
             'user_id'        => Auth::id(),
-            'order_number'   => OrderModel::generateOrderSN(Auth::id()),     //订单编号
+            'order_number'   => $order_num,     //订单编号
             'order_amount'   => $order_amount,
             'create_time'    => time(),
         ];
@@ -42,8 +44,12 @@ class OrderController extends Controller
                 'order_id'          => $order_id,
                 'goods_id'          => $v['goods_id'],
                 'goods_name'        => $v['goods_name'],
+                'merchant_id'       => $v['merchant_id'],
+                'merchant_num'      => Str::random(10).$v['merchant_id'],
+                'order_number'      => $order_num,
                 'goods_selfprice'   => $v['goods_selfprice'],
-                'user_id'           => Auth::id()
+                'user_id'           => Auth::id(),
+                'buy_number'        => 1
             ];
             //订单详情表添加入库
             OrderDetailModel::insertGetId($detail);

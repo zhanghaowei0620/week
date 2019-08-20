@@ -68,6 +68,7 @@ class IndexController extends Controller
                 'goods_id'        => $goods['goods_id'],
                 'goods_name'      => $goods['goods_name'],
                 'goods_selfprice' => $goods['goods_selfprice'],
+                'merchant_id'     =>$goods['merchant_id'],
                 'user_id'         => Auth::id(),
                 'create_time'     => time(),
                 'session_id'      => Session::getId(),

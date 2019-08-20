@@ -18,6 +18,7 @@ class CartController extends Controller
     {
         print_r(Session::getId());
         $cart_list = CartModel::where(['user_id'=>Auth::id(),'session_id'=>Session::getId()])->get()->toArray();
+
         if ($cart_list) {
             $total_price = 0;
             foreach ($cart_list as $k => $v) {

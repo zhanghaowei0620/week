@@ -1,7 +1,713 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92ce1c0c-8002-41c3-8432-07e3e2f73619" name="Default" comment="" />
+    <list default="true" id="92ce1c0c-8002-41c3-8432-07e3e2f73619" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lianxi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lianxi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/ExampleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Kaoshi/GoodsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Kaoshi/GoodsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Kaoshi/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Kaoshi/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Login/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Login/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Oss/OssController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Oss/OssController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Pay/PayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Pay/PayController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/Aui.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/Aui.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/ProcessPodcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/ProcessPodcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/CartModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/CartModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/GoodsModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/GoodsModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/OrderDetailModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/OrderDetailModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/OrderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/OrderModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/ShopModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/ShopModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2016_01_04_173148_create_admin_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2016_01_04_173148_create_admin_tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/a2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/a2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181121/4fae0076d493cd6670ce5c0ca9d9e6d8.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/4fae0076d493cd6670ce5c0ca9d9e6d8.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181121/a80e6e6de800e97e6a4e4c5f321a0a83.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/a80e6e6de800e97e6a4e4c5f321a0a83.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181121/b0916f6e3af162a91b2710778bac0df7.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/b0916f6e3af162a91b2710778bac0df7.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/0a494d386284a5dfaeeee217c9736ede.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/0a494d386284a5dfaeeee217c9736ede.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/5e2103d52eeef99aa880cb37d0185db9.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/5e2103d52eeef99aa880cb37d0185db9.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/6c5c609816dc6147458a711674a0321a.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/6c5c609816dc6147458a711674a0321a.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/6d0b2c98d07c2f390df5a7fc84173af8.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/6d0b2c98d07c2f390df5a7fc84173af8.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/8e55bd6955d64e97b3255649b573222a.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/8e55bd6955d64e97b3255649b573222a.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/9b542a83e14775f75a3d9180b27d5d2f.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/9b542a83e14775f75a3d9180b27d5d2f.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/bd11396e346dc19753fb209ced3fa131.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/bd11396e346dc19753fb209ced3fa131.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/d0584790dcca84cb7ad02d7f72bab582.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/d0584790dcca84cb7ad02d7f72bab582.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/fe959bea90040d22529d224c04fa9cd6.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/fe959bea90040d22529d224c04fa9cd6.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181126/2b07a602d276b5b32a4984576e1f8328.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181126/2b07a602d276b5b32a4984576e1f8328.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181126/78c251b88e801d3984943bfa13a520c4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181126/78c251b88e801d3984943bfa13a520c4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/009e3e7d0f9ad47033cf0546c8041d26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/009e3e7d0f9ad47033cf0546c8041d26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/044782e0566e111a7a055b957eb1eb4c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/044782e0566e111a7a055b957eb1eb4c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/04c57bf4578e7fe19637803b82c4cf9b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/04c57bf4578e7fe19637803b82c4cf9b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/056afb56003e05370496f8a4e1c136d0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/056afb56003e05370496f8a4e1c136d0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/05a6715144876a444c6dac275fc27c20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/05a6715144876a444c6dac275fc27c20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/07a5c1c7bead1d7bda4ce280edee1116.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/07a5c1c7bead1d7bda4ce280edee1116.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/0b9ccb8ec100864f0556cc0a00f9cf37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/0b9ccb8ec100864f0556cc0a00f9cf37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/109b03fcb6b8b6fa5a12d78cd9695610.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/109b03fcb6b8b6fa5a12d78cd9695610.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/12cd58332ca929aa51319ae42e8c7e1b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/12cd58332ca929aa51319ae42e8c7e1b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/134c4b30b060c72a7f92299f77cd1102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/134c4b30b060c72a7f92299f77cd1102.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/145b0067052990ec983f7b16bfbcfc48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/145b0067052990ec983f7b16bfbcfc48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/15419cc80b0ce1ff07f49bc91c73c64b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/15419cc80b0ce1ff07f49bc91c73c64b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/158ae1f2f9c7ae340f4a565fb34d6c72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/158ae1f2f9c7ae340f4a565fb34d6c72.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/16db9a61880e478e0bfc8f66ce990a6e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/16db9a61880e478e0bfc8f66ce990a6e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1736f6e83385fe497074908212e87989.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1736f6e83385fe497074908212e87989.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/185ea5f0fd02f378aec6c644d800c1a5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/185ea5f0fd02f378aec6c644d800c1a5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/18ade0f979af3522e42b88523044f9cf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/18ade0f979af3522e42b88523044f9cf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1cc85d803f4be6d6e0a6ae6035ace9a9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1cc85d803f4be6d6e0a6ae6035ace9a9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1f1d36ff169c656aafdf8f79a9e93723.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1f1d36ff169c656aafdf8f79a9e93723.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1ff1be8ab9ddc3be52a16bf0bb180224.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1ff1be8ab9ddc3be52a16bf0bb180224.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/238633d3aa74bc8f6902e027cf14ff95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/238633d3aa74bc8f6902e027cf14ff95.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2720a0ad1e4879288ed3b917224c8a3b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2720a0ad1e4879288ed3b917224c8a3b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/289ae010da968f619ef6fd35da31e926.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/289ae010da968f619ef6fd35da31e926.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2be4192c2bd731ffb5253e6f47a07f69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2be4192c2bd731ffb5253e6f47a07f69.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2ea1cd8af3e587674241cd352799fce2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2ea1cd8af3e587674241cd352799fce2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2fc4018f8e5f1beea59372370c951c15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2fc4018f8e5f1beea59372370c951c15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3ab4f93302364d87f74eec32817f546f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3ab4f93302364d87f74eec32817f546f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3c439011e1c2d0ddbbe17a4106d0e78d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3c439011e1c2d0ddbbe17a4106d0e78d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3daa63c564e131438fa8f14fc767fc40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3daa63c564e131438fa8f14fc767fc40.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4018a1f3899797dcc58e0a35759e62a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4018a1f3899797dcc58e0a35759e62a4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/412fccf2fa7d99cf9a0a4452c25fa93a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/412fccf2fa7d99cf9a0a4452c25fa93a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/442939b5048a5e8951ea159a79157e63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/442939b5048a5e8951ea159a79157e63.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/44b52db925c3b0aed2a3e7d06f8498cc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/44b52db925c3b0aed2a3e7d06f8498cc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/489040fd7a459a5b5439336acb7537fa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/489040fd7a459a5b5439336acb7537fa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4db33fa372444793f9eeae8e5d8d55ec.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4db33fa372444793f9eeae8e5d8d55ec.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4fee03213c7822f43f7905b94f0e3927.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4fee03213c7822f43f7905b94f0e3927.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5528777bc2ae96bf1b0a9567e4d483f2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5528777bc2ae96bf1b0a9567e4d483f2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/58148407529daa2b000efd64ad84c604.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/58148407529daa2b000efd64ad84c604.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/58d83e42bb81496cde24c47f2e7b92d0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/58d83e42bb81496cde24c47f2e7b92d0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5b3592a4fd32a8ee2e49226a38296967.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5b3592a4fd32a8ee2e49226a38296967.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5d70d13c976c401ee09849ec30ee00cf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5d70d13c976c401ee09849ec30ee00cf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5e5cfe50ffd60d0b1c37fa4de5489b1a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5e5cfe50ffd60d0b1c37fa4de5489b1a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5f80c655572a5b4c1688649c13564662.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5f80c655572a5b4c1688649c13564662.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/646f6093fc562868b2561a81e2714c50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/646f6093fc562868b2561a81e2714c50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/66d10eb278de4cc359f9faa1a3ebd9e6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/66d10eb278de4cc359f9faa1a3ebd9e6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/695cdd981d61079f7987944b109b6c44.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/695cdd981d61079f7987944b109b6c44.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/69fc242a5672f144a5ebbe002ec34802.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/69fc242a5672f144a5ebbe002ec34802.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/6b85d5204ffc758f380b7bf401e275d7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/6b85d5204ffc758f380b7bf401e275d7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/723dd40ca7d42342d2e358805940d99b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/723dd40ca7d42342d2e358805940d99b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/76ecfb1f70075885d7b57cf77339e986.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/76ecfb1f70075885d7b57cf77339e986.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/76fb19b106b723275506ecaa24c59f4b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/76fb19b106b723275506ecaa24c59f4b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7a87b13f7f15d86347ac3c388509604f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7a87b13f7f15d86347ac3c388509604f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7b095500adf6c1edd282c30f53074242.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7b095500adf6c1edd282c30f53074242.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7c17fdba7951ddeaeb7eff9e0c022e1f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7c17fdba7951ddeaeb7eff9e0c022e1f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7fa0edc5b81cfc3f86cdbe17cff52c91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7fa0edc5b81cfc3f86cdbe17cff52c91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/80fed78b98d94d09360f098c0c8fb7de.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/80fed78b98d94d09360f098c0c8fb7de.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8553b72989e9aeeb5bb1842a551a80a6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8553b72989e9aeeb5bb1842a551a80a6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8b49d682195bd45014015b8b86faa34f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8b49d682195bd45014015b8b86faa34f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8dc2fce412faf0439b0c1b9183d884d8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8dc2fce412faf0439b0c1b9183d884d8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8de490c092088ff9f94e01782ad5e750.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8de490c092088ff9f94e01782ad5e750.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/986ca8f470fec9f843295981fe47280d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/986ca8f470fec9f843295981fe47280d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/990e2f50f457b70572d9039625a53536.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/990e2f50f457b70572d9039625a53536.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/99373568dad2833fcdbc6c4e22c0fceb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/99373568dad2833fcdbc6c4e22c0fceb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9a10688bbeacd9ef1d69b2c1afcfc36c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9a10688bbeacd9ef1d69b2c1afcfc36c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9bf87bf0d6c6b78e23afcefd555f10b0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9bf87bf0d6c6b78e23afcefd555f10b0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9e7ee20b8b3b0123d2c861c8b9399354.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9e7ee20b8b3b0123d2c861c8b9399354.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9ed4d8556daeb8b201a3bab0c1783978.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9ed4d8556daeb8b201a3bab0c1783978.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9f5ce6e85c59a30d9a1f85fe696fc64e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9f5ce6e85c59a30d9a1f85fe696fc64e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a0211541a450630e28f4fd5dda13fb6c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a0211541a450630e28f4fd5dda13fb6c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a1596385213e2c8108849edb72fd79c1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a1596385213e2c8108849edb72fd79c1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a259285e3ea86e008fff5fe5f5390c0a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a259285e3ea86e008fff5fe5f5390c0a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a6e39ee0842b64819905e6f18d4e1bb7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a6e39ee0842b64819905e6f18d4e1bb7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ae7c4a68b4cc8ebe8a27c1cf6cfe45a8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ae7c4a68b4cc8ebe8a27c1cf6cfe45a8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/b8081606b91c0f64da1937dbdd1d8e90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/b8081606b91c0f64da1937dbdd1d8e90.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ba526a911ec60cfa1e054be25aedf012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ba526a911ec60cfa1e054be25aedf012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/bab7026ecfca755b7845ce99e2dd03f1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/bab7026ecfca755b7845ce99e2dd03f1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/bad2c3cef7ba9afaad686a1ec01018e1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/bad2c3cef7ba9afaad686a1ec01018e1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c380cb00d13a332fa95ea64c4432517f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c380cb00d13a332fa95ea64c4432517f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c3c8133cb9682b306f1ac718ab9fc2c4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c3c8133cb9682b306f1ac718ab9fc2c4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c3f572b733b0d287b27f67ad8e097692.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c3f572b733b0d287b27f67ad8e097692.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c4d5a1ce270cdecb12eea9c184ed29fb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c4d5a1ce270cdecb12eea9c184ed29fb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c6b93b13036df4e375bf66a88ee38f4f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c6b93b13036df4e375bf66a88ee38f4f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cd5e14dfad18673a452d1cfb03a1609d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cd5e14dfad18673a452d1cfb03a1609d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cec0a3e1f890a499f24a9ec134db1294.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cec0a3e1f890a499f24a9ec134db1294.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cecc685aa9af9d3ab1de1b056fd31c1a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cecc685aa9af9d3ab1de1b056fd31c1a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cf06c62062d03ba621705562145242f5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cf06c62062d03ba621705562145242f5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d05a09c00c708345d7a090c635450354.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d05a09c00c708345d7a090c635450354.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d0c0adadd0a16e429e8904a3af1a470e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d0c0adadd0a16e429e8904a3af1a470e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d5fc161490a6372e7a4ff76c31bb94ed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d5fc161490a6372e7a4ff76c31bb94ed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/dbad113ee4116ff4748a3588ac55ceb9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/dbad113ee4116ff4748a3588ac55ceb9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ddcafcaf479518d128d786826af932a4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ddcafcaf479518d128d786826af932a4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/e4af8aa23a7133114cf3a56991af9879.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/e4af8aa23a7133114cf3a56991af9879.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/e4bc392c25020c4dd560b5756563798a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/e4bc392c25020c4dd560b5756563798a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/eb9bb97cd8f29d7be1d408c01e46d1c8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/eb9bb97cd8f29d7be1d408c01e46d1c8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ece1cd253f27e476b442814ebc23f6d5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ece1cd253f27e476b442814ebc23f6d5.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/edf1e9262575b724447c2c9ad8d83666.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/edf1e9262575b724447c2c9ad8d83666.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/eee365a282360184d22ece137a8028f8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/eee365a282360184d22ece137a8028f8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ef2a89b7042820c9e2418041c6d0af76.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ef2a89b7042820c9e2418041c6d0af76.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/f3e35c240c11cd5f4b4e9afe941ed0a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/f3e35c240c11cd5f4b4e9afe941ed0a4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/411bfbdd22ed14a87f3dcd8f595cafa1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/411bfbdd22ed14a87f3dcd8f595cafa1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/45f2b931750e5f648993229ae4e2ea91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/45f2b931750e5f648993229ae4e2ea91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/5846b99f285b63a49d700d7804795db9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/5846b99f285b63a49d700d7804795db9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/6b1aedcab14745e3030bf2d7eaff7684.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/6b1aedcab14745e3030bf2d7eaff7684.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/70259b66c796859a458d6866aa5dc0cf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/70259b66c796859a458d6866aa5dc0cf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/7b2a67b506c59c1867d095e67a165df7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/7b2a67b506c59c1867d095e67a165df7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/973ac18dd9e84f9b14b26569482a323e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/973ac18dd9e84f9b14b26569482a323e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/b548f8d3095f7d8495e4b5f085bf4bcb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/b548f8d3095f7d8495e4b5f085bf4bcb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/c6755293bbc317838e57037d546c23b7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/c6755293bbc317838e57037d546c23b7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/f3f361f0d1005f72e150a3e4e4b9a16b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/f3f361f0d1005f72e150a3e4e4b9a16b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/51a4394aca0f6b9861ebacfa37a90ec2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/51a4394aca0f6b9861ebacfa37a90ec2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/a37f70e00b0bcb82f1267dad2b96e490.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/a37f70e00b0bcb82f1267dad2b96e490.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/c7359c2a94080b7f633b7a5ec053eb37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/c7359c2a94080b7f633b7a5ec053eb37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/cfee5f24b1505d922e9a3c9423c66203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/cfee5f24b1505d922e9a3c9423c66203.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/fb51320c95557f9b45b1f518e0bdde14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/fb51320c95557f9b45b1f518e0bdde14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/287213a67ae131e0bf078349beb6e815.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/287213a67ae131e0bf078349beb6e815.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/2c16831408b3681a803644fca1fa5535.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/2c16831408b3681a803644fca1fa5535.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/8626587da9075039a954530fe0e1776a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/8626587da9075039a954530fe0e1776a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/O1CN011hHSXCSYP5TBZKw_!!734584252.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/O1CN011hHSXCSYP5TBZKw_!!734584252.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/a924ae09511128ccf849347703f26186.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/a924ae09511128ccf849347703f26186.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/ca0f1379fc3f29d25501fe4b72651413.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/ca0f1379fc3f29d25501fe4b72651413.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/f5756aa27afa98be8ff37f91b9cb65c8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/f5756aa27afa98be8ff37f91b9cb65c8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-1.12.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/weixin/qrcode.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/weixin/qrcode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/laydate/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/laydate/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/laydate/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/laydate/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/18.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/19.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/24.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/25.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/26.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/27.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/28.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/31.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/33.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/34.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/36.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/37.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/38.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/39.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/40.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/41.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/42.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/43.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/44.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/45.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/46.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/47.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/48.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/49.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/51.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/52.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/53.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/54.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/55.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/56.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/57.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/58.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/59.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/60.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/61.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/62.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/63.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/65.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/66.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/67.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/68.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/69.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/70.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/71.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/images/face/9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/dest/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/dest/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/4YeuPJm9KM2wh3ZF58owjCnaQJORRogBpTJCxRpS.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/4YeuPJm9KM2wh3ZF58owjCnaQJORRogBpTJCxRpS.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/63QQVVpm5InQa0PxXGStOYfsPlD6Dr49j7ejjT33.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/63QQVVpm5InQa0PxXGStOYfsPlD6Dr49j7ejjT33.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/7wWtG6owfyGmaPEsNYDMav1efn4v1xJqwa7lV275.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/7wWtG6owfyGmaPEsNYDMav1efn4v1xJqwa7lV275.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/FiwtOOh9MoIylbwnw6yXDybl4Kuo3Y2PxfzWPlxV.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/FiwtOOh9MoIylbwnw6yXDybl4Kuo3Y2PxfzWPlxV.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/HBRhXWlgXK1r3aVo97mJaU8yweKEhS4tQVvZUkkc.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/HBRhXWlgXK1r3aVo97mJaU8yweKEhS4tQVvZUkkc.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/InodHbna8iUReWSkkv7zT5gh9bG3slHMT7jJkkzQ.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/InodHbna8iUReWSkkv7zT5gh9bG3slHMT7jJkkzQ.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/RAttrIxtqceil8S0fgf3pU6LUvljdo7ML9KSPUXb.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/RAttrIxtqceil8S0fgf3pU6LUvljdo7ML9KSPUXb.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/VAkeNkhIWacOtFQYWmZCYSGvnp8tkaeU40f0qFO7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/VAkeNkhIWacOtFQYWmZCYSGvnp8tkaeU40f0qFO7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/XpimdVHv6lpxZ7kRSTYQxoqvFV2tR6MO1UWp20rI.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/XpimdVHv6lpxZ7kRSTYQxoqvFV2tR6MO1UWp20rI.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/aQ9oek6JYkXoppVa0BFnKU4Oh48G1pKen326N1Re.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/aQ9oek6JYkXoppVa0BFnKU4Oh48G1pKen326N1Re.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/ajOE7uHZKluhdOeCBP4T5b4WqNM1beIa6L1qO16W.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/ajOE7uHZKluhdOeCBP4T5b4WqNM1beIa6L1qO16W.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/aolcD0aMy6MHdt6DgkSNFj0zBiTGg984D9Bmzgj4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/aolcD0aMy6MHdt6DgkSNFj0zBiTGg984D9Bmzgj4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/bzmoVopgK1D4O4fogMschIgc9GFTI9VHEKUfXHsI.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/bzmoVopgK1D4O4fogMschIgc9GFTI9VHEKUfXHsI.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/cyDnWHAh0mFibttRl3BoVVzDxApVhCtA9Fth6Rah.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/cyDnWHAh0mFibttRl3BoVVzDxApVhCtA9Fth6Rah.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/e8I6WYzQfxrBSfsZEvq8pxbH1oap45faXrrk5Ax7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/e8I6WYzQfxrBSfsZEvq8pxbH1oap45faXrrk5Ax7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/f1E976N4PHqZb6DhGn4S7bWICS8KLtD8t0v1t39n.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/f1E976N4PHqZb6DhGn4S7bWICS8KLtD8t0v1t39n.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/fLdyK9PvDMBXIdqOiQoEnuVDfixw1QdcoJCf68zC.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/fLdyK9PvDMBXIdqOiQoEnuVDfixw1QdcoJCf68zC.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/ftPNKzdm3mJlgWxDmbCWJEWvn8X8mkhaTqYPVvwt.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/ftPNKzdm3mJlgWxDmbCWJEWvn8X8mkhaTqYPVvwt.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/hDqzMPRmSJyQZMFjuxy4AxSu3hoopkaY996tSZUK.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/hDqzMPRmSJyQZMFjuxy4AxSu3hoopkaY996tSZUK.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/iYu0JOIOsj1KI760kbw4KLKQ0Sp4z39noo7V4NLM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/iYu0JOIOsj1KI760kbw4KLKQ0Sp4z39noo7V4NLM.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/is74UpXDrYm3TCkDP6ygun3LomcKVWVSTuOiG4FZ.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/is74UpXDrYm3TCkDP6ygun3LomcKVWVSTuOiG4FZ.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/jjxIv1siTjkumenTOoQi4c0zq1AkG8Tc4jZa6kzB.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/jjxIv1siTjkumenTOoQi4c0zq1AkG8Tc4jZa6kzB.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/m4Qv2Zsn5e5m5TDzQm4rTFk3jhMqzxbohCoi7Xh5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/m4Qv2Zsn5e5m5TDzQm4rTFk3jhMqzxbohCoi7Xh5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/n4uYzPGiZF5FcDQHHsOyfqfEX6ZQ7u3mbt7gFnMX.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/n4uYzPGiZF5FcDQHHsOyfqfEX6ZQ7u3mbt7gFnMX.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/tPkUyFzraTC3K7998ozC9bdHiFVGQDx8hZw3OWqs.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/tPkUyFzraTC3K7998ozC9bdHiFVGQDx8hZw3OWqs.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20190531/uWQuwdtv5LCSijXwKM1YutIIFkQqkM3uIVCd0puc.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/20190531/uWQuwdtv5LCSijXwKM1YutIIFkQqkM3uIVCd0puc.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/AdminLTE.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/_all-skins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/_all-skins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-black-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-black-light.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-black.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-black.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-blue-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-blue-light.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-blue.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-blue.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-green-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-green-light.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-green.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-purple-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-purple-light.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-purple.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-purple.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-red-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-red-light.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-red.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-red.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-yellow-light.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-yellow-light.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-yellow.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/css/skins/skin-yellow.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/boxed-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/boxed-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/boxed-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/boxed-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/default-50x50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/default-50x50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/dist/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/bootstrap-slider/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/bootstrap-slider/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/alpha-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/alpha-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/hue-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/hue-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/hue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/hue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/saturation.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/colorpicker/img/saturation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/flat@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/flat/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/line@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/line/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/aero@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/orange@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/pink@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/square@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/jquery.inputmask.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/jquery.inputmask.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/phone-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/phone-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/phone-codes.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/phone-codes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/input-mask/phone-codes/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/img/sprite-skin-flat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/img/sprite-skin-flat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/img/sprite-skin-nice.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/img/sprite-skin-nice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.skinFlat.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.skinNice.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/ionslider/ion.rangeSlider.skinNice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pt-BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/zh-TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-duallistbox/dist/bootstrap-duallistbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-duallistbox/dist/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-duallistbox/dist/jquery.bootstrap-duallistbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-duallistbox/dist/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/css/fileinput.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/css/fileinput.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/img/loading-sm.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/img/loading-sm.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/fileinput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/fileinput.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/canvas-to-blob.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/canvas-to-blob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/piexif.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/piexif.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/piexif.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/piexif.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/purify.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/purify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/purify.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/purify.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/sortable.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/sortable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/sortable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/js/plugins/sortable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-switch/dist/js/bootstrap-switch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-switch/dist/js/bootstrap-switch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/css/bootstrap-editable.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/css/bootstrap-editable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/img/clear.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/img/clear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/js/bootstrap-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap3-editable/js/bootstrap-editable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/fontawesome-iconpicker/dist/js/fontawesome-iconpicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/fontawesome-iconpicker/dist/js/fontawesome-iconpicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light-Italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold-Italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro-Semibold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/google-fonts/fonts/Source-Sans-Pro.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/jquery-pjax/jquery.pjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/jquery-pjax/jquery.pjax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/laravel-admin/laravel-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/laravel-admin/laravel-admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/laravel-admin/laravel-admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/laravel-admin/laravel-admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/moment/min/moment-with-locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/moment/min/moment-with-locales.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/nestable/jquery.nestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/nestable/jquery.nestable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/nestable/nestable.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/nestable/nestable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/nprogress/nprogress.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/nprogress/nprogress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/nprogress/nprogress.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/nprogress/nprogress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/number-input/bootstrap-number-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/number-input/bootstrap-number-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/sweetalert2/dist/sweetalert2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/sweetalert2/dist/sweetalert2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/sweetalert2/dist/sweetalert2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/sweetalert2/dist/sweetalert2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/toastr/build/toastr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/toastr/build/toastr.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/toastr/build/toastr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/toastr/build/toastr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/az/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/az/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/es/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/fa/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/fa/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/fr/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/fr/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/he/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/he/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/id/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/id/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ja/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ja/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ko/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ko/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ms/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ms/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/nl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/nl/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/pl/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt-BR/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/pt-BR/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/pt/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/pt/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ru/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/tr/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tr/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/uk/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/uk/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/zh-CN/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-TW/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/zh-TW/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cart/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index/goodsdetail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/goodsdetail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kaoshi/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kaoshi/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kaoshi/goods.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kaoshi/goods.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kaoshi/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kaoshi/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kaoshi/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kaoshi/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kaoshi/updata.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kaoshi/updata.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login/goods.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/goods.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/order/lists.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/order/lists.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/alipay/pay_private.pem" beforeDir="false" afterPath="$PROJECT_DIR$/storage/alipay/pay_private.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/alipay/pay_public.pem" beforeDir="false" afterPath="$PROJECT_DIR$/storage/alipay/pay_public.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +719,28 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="789">
+              <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+              <folding>
+                <element signature="e#46#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cate_id</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,16 +774,16 @@
         <option value="$PROJECT_DIR$/resources/views/index/goodsdetail.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/CartModel.php" />
         <option value="$PROJECT_DIR$/app/Model/OrderDetailModel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" />
         <option value="$PROJECT_DIR$/resources/views/cart/cart.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/OrderModel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php" />
         <option value="$PROJECT_DIR$/resources/views/order/lists.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Pay/PayController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/index/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php" />
       </list>
     </option>
   </component>
@@ -163,9 +885,9 @@
       <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="156" />
-    <option name="y" value="201" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="409" />
+    <option name="y" value="153" />
     <option name="width" value="1293" />
     <option name="height" value="810" />
   </component>
@@ -190,7 +912,23 @@
             <path>
               <item name="week" type="b2602c69:ProjectViewProjectNode" />
               <item name="week" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="week" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="week" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,27 +999,30 @@
       <workItem from="1565531723534" duration="1217000" />
       <workItem from="1565568776102" duration="1610000" />
       <workItem from="1565589893983" duration="37000" />
+      <workItem from="1566174005668" duration="611000" />
+      <workItem from="1566262791593" duration="3202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78302000" />
+    <option name="totallyTimeSpent" value="82115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="201" width="1293" height="810" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1970803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,9 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="19" column="64" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="e#44#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -334,9 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3618">
           <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
-          <folding>
-            <element signature="e#44#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,32 +1208,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/cart/cart.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/Model/OrderModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -514,16 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="19" column="64" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="e#44#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -531,6 +1235,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="71" column="48" lean-forward="true" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding>
+            <element signature="e#46#70#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
